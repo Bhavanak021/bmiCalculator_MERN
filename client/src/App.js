@@ -4,6 +4,7 @@ import { BrowserRouter as Router, Route} from "react-router-dom";
 
 import Navbar from "./components/navbar";
 import CreateUser from './components/createBMI';
+import bmiList from './components/bmiList';
 
 function App() {
   return (
@@ -11,7 +12,13 @@ function App() {
       <div className="container">
       <Navbar />
       <br/>
+      <div>
       <Route path="/" exact component={CreateUser} />
+      </div>
+      <div>
+      <Route path="/" exact component={bmiList} />
+      </div>
+      
       </div>
     </Router>
   );
