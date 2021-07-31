@@ -69,7 +69,8 @@ export default class CreateUser extends Component {
   render() {
     return (
       <div>
-        <h3>Create new BMI</h3>
+        <h2>Calculate BMI</h2>
+        <br/>
         <form onSubmit={this.onSubmit}>
           <div className="form-group"> 
             <label>Height: </label>
@@ -77,6 +78,7 @@ export default class CreateUser extends Component {
                 id="height"
                 required
                 className="form-control"
+                placeholder="Enter in height (m)"
                 value={this.state.height}
                 onChange={this.onChangeHeight}
                 />
@@ -85,14 +87,17 @@ export default class CreateUser extends Component {
                 id="weight"
                 required
                 className="form-control"
+                placeholder="Enter in weight (kg)"
                 value={this.state.weight}
                 onChange={this.onChangeWeight}
                 />   
           </div>
           <div className="form-group">
+            <br/>
             <input type="submit" value="Calculate" onClick={this.calculateBMI} className="btn btn-primary" />
           </div>
           <div>
+          <br/>
           <label>BMI:  </label>
             <p id="demo"></p>
             <label>Status:  </label>

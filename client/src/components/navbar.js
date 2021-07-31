@@ -5,8 +5,8 @@ export default class Navbar extends Component {
 
   render() {
     return (
-      <nav className="navbar navbar-dark bg-dark navbar-expand-lg">
-        <Link to="/add" className="navbar-brand">BMI CALCULATOR</Link>
+      <nav className="navbar  navbar-expand-lg">
+        <Link to="/" className="navbar-brand"><u><h2>BMI CALCULATOR</h2></u></Link>
         
       </nav>
     );

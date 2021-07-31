@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
 import axios from 'axios';
 
 const Exercise = props => (
@@ -26,7 +25,7 @@ export default class bmiList extends Component {
         console.log(error);
       })
   }
-
+  
 
   exerciseList() {
     return this.state.exercises.map(currentexercise => {
@@ -37,7 +36,8 @@ export default class bmiList extends Component {
   render() {
     return (
       <div>
-        <h3>Logged BMI's</h3>
+        <h2>Logged BMI's</h2>
+        <br/>
         <table className="table">
           <thead className="thead-light">
             <tr>
