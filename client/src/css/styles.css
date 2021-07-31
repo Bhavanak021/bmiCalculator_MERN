@@ -1,0 +1,13 @@
+body{
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcREy9u-EvTeaAX63eze5Gv3EEzuqjdM6TCozphT-1IqzU5pg-NYaqYVtPboVCuTzVivtPjpXHsJ3dE&usqp=CAU");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+nav{
+    margin-top: 0px;
+    color: black;
+    overflow: hidden;
+
+}

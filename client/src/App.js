@@ -1,6 +1,7 @@
 import React from 'react';
 import "bootstrap/dist/css/bootstrap.min.css";
 import { BrowserRouter as Router, Route} from "react-router-dom";
+import './css/styles.css';
 
 import Navbar from "./components/navbar";
 import CreateUser from './components/createBMI';
